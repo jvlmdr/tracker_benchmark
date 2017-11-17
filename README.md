@@ -33,7 +33,7 @@ In Matlab:
 
 ```matlab
 addpath util;
-run MakeSequenceConfigVer11;
+run MakeSequenceConfigVer10;
 ```
 
 # To plot the results
