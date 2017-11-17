@@ -6,7 +6,7 @@ if nargin < 1
   switch computer('arch')
     case {'win32', 'win64'}
       results = {};  %- Supported platforms. Do nothing.
-    case {'glnx86', 'glnx64', 'maci64'}
+    case {'glnx86', 'glnxa64', 'maci64'}
       error(['Unsupported planform - ' computer('arch') '.']);
     otherwise
       error(['Unknown planform - ' computer('arch') '.']);

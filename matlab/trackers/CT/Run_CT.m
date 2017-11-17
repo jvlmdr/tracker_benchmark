@@ -4,7 +4,7 @@ function results = Run_CT(imgfilepath_fmt, img_range_str, init_rect, run_opt)
 %- Platform check.
 if nargin < 1
   switch computer('arch')
-    case {'win32', 'win64', 'glnx86', 'glnx64', 'maci64'}
+    case {'win32', 'win64', 'glnx86', 'glnxa64', 'maci64'}
       results = {};  %- Supported platforms. Do nothing.
     case {}
       error(['Unsupported planform - ' computer('arch') '.']);
