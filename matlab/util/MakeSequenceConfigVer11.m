@@ -33,7 +33,7 @@ SaveSequenceConfig('Skating2.1', 'img/%04d.jpg', '1:473', 'http://cvlab.hanyang.
 SaveSequenceConfig('Skating2.2', 'img/%04d.jpg', '1:473', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Skating2.zip', {'OPR', 'SV', 'OCC', 'DEF', 'FM'}, 'groundtruth_rect.2.txt');
 SaveSequenceConfig('Surfer', 'img/%04d.jpg', '1:376', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Surfer.zip', {'OPR', 'SV', 'FM', 'IPR', 'LR'}, 'groundtruth_rect.txt');
 SaveSequenceConfig('Toy', 'img/%04d.jpg', '1:271', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Toy.zip', {'OPR', 'SV', 'FM', 'IPR'}, 'groundtruth_rect.txt');
-SaveSequenceConfig('Twinning', 'img/%04d.jpg', '1:472', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Twinning.zip', {'OPR', 'SV'}, 'groundtruth_rect.txt');
+% SaveSequenceConfig('Twinning', 'img/%04d.jpg', '1:472', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Twinning.zip', {'OPR', 'SV'}, 'groundtruth_rect.txt');
 SaveSequenceConfig('Vase', 'img/%04d.jpg', '1:271', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Vase.zip', {'SV', 'FM', 'IPR'}, 'groundtruth_rect.txt');
 
 SaveSequenceConfig('Twinnings', 'img/%04d.jpg', '1:472', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Twinnings.zip', {'OPR', 'SV'}, 'groundtruth_rect.txt');
