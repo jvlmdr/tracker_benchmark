@@ -23,7 +23,7 @@ rm pami15_TRE.zip # Optional
 ```bash
 cd tracker_benchmark/data/
 mkdir dl/
-(cd dl/ && bash <(curl -s https://gist.com/jvlmdr/00968b1cf9d1a0e57b8ed93fe158f224/raw/download.sh))
+(cd dl/ && bash <(curl -s -L https://gist.github.com/jvlmdr/00968b1cf9d1a0e57b8ed93fe158f224/raw/download.sh))
 ls dl/*.zip | xargs -n 1 unzip
 rm -r __MACOSX/
 rm -r dl/ # Optional
