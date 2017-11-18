@@ -16,6 +16,8 @@ unzip pami15_TRE.zip
 rm pami15_TRE.zip # Optional
 ```
 
+(and the same for `pami15_SRE`)
+
 # To download the sequences
 
 ```bash
@@ -26,6 +28,7 @@ wget https://gist.githubusercontent.com/jvlmdr/00968b1cf9d1a0e57b8ed93fe158f224/
 bash download.sh
 cd ..
 ls dl/*.zip | xargs -n 1 unzip
+rm -r __MACOSX/
 rm -r dl/ # Optional
 ```
 
@@ -33,7 +36,8 @@ In Matlab:
 
 ```matlab
 addpath util;
-run MakeSequenceConfigVer10;
+MakeSequenceConfigVer10;
+MakeSequenceConfigVer11;
 ```
 
 # To plot the results
@@ -43,7 +47,11 @@ In Matlab:
 ```matlab
 trackers = SetupTrackers();
 sequences = ScanSequences();
-PlotSuccessRates('pami15_TRE', 'ALL', trackers);
+PlotSuccessRates('pami15_TRE', 'V11_50', trackers);
 ```
+
+- `V11_50` for the PAMI-2015 OTB-50 dataset
+- `V11_100` for the PAMI-2015 OTB-100 dataset
+- `ALL` for all sequences in `data/`
 
 # To add a tracker
