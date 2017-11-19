@@ -25,7 +25,7 @@ SaveSequenceConfig('Jump', 'img/%04d.jpg', '1:122', 'http://cvlab.hanyang.ac.kr/
 SaveSequenceConfig('Panda', 'img/%04d.jpg', '1:1000', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Panda.zip', {'OPR', 'SV', 'OCC', 'DEF', 'IPR', 'OV', 'LR'}, 'groundtruth_rect.txt');
 SaveSequenceConfig('RedTeam', 'img/%04d.jpg', '1:1918', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/RedTeam.zip', {'OPR', 'SV', 'OCC', 'IPR', 'LR'}, 'groundtruth_rect.txt');
 
-SaveSequenceConfig('Board', 'img/%04d.jpg', '1:698', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Board.zip', {'OPR', 'SV', 'MB', 'FM', 'OV', 'BC'}, 'groundtruth_rect.txt');
+SaveSequenceConfig('Board', 'img/%05d.jpg', '1:698', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Board.zip', {'OPR', 'SV', 'MB', 'FM', 'OV', 'BC'}, 'groundtruth_rect.txt');
 SaveSequenceConfig('Box', 'img/%04d.jpg', '1:1161', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Box.zip', {'IV', 'OPR', 'SV', 'OCC', 'MB', 'IPR', 'OV', 'BC'}, 'groundtruth_rect.txt');
 SaveSequenceConfig('ClifBar', 'img/%04d.jpg', '1:472', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/ClifBar.zip', {'SV', 'OCC', 'MB', 'FM', 'IPR', 'OV', 'BC'}, 'groundtruth_rect.txt');
 SaveSequenceConfig('Rubik', 'img/%04d.jpg', '1:1997', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Rubik.zip', {'OPR', 'SV', 'OCC', 'IPR'}, 'groundtruth_rect.txt');
@@ -33,7 +33,6 @@ SaveSequenceConfig('Skating2.1', 'img/%04d.jpg', '1:473', 'http://cvlab.hanyang.
 SaveSequenceConfig('Skating2.2', 'img/%04d.jpg', '1:473', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Skating2.zip', {'OPR', 'SV', 'OCC', 'DEF', 'FM'}, 'groundtruth_rect.2.txt');
 SaveSequenceConfig('Surfer', 'img/%04d.jpg', '1:376', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Surfer.zip', {'OPR', 'SV', 'FM', 'IPR', 'LR'}, 'groundtruth_rect.txt');
 SaveSequenceConfig('Toy', 'img/%04d.jpg', '1:271', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Toy.zip', {'OPR', 'SV', 'FM', 'IPR'}, 'groundtruth_rect.txt');
-% SaveSequenceConfig('Twinning', 'img/%04d.jpg', '1:472', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Twinning.zip', {'OPR', 'SV'}, 'groundtruth_rect.txt');
 SaveSequenceConfig('Vase', 'img/%04d.jpg', '1:271', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Vase.zip', {'SV', 'FM', 'IPR'}, 'groundtruth_rect.txt');
 
 SaveSequenceConfig('Twinnings', 'img/%04d.jpg', '1:472', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Twinnings.zip', {'OPR', 'SV'}, 'groundtruth_rect.txt');
@@ -41,9 +40,9 @@ SaveSequenceConfig('Twinnings', 'img/%04d.jpg', '1:472', 'http://cvlab.hanyang.a
 %% dummy
 
 SaveSequenceConfig('Bird2', 'img/%04d.jpg', '1:99', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Bird2.zip', {'OPR', 'OCC', 'DEF', 'FM', 'IPR'}, 'groundtruth_rect.txt');
-SaveSequenceConfig('BlurCar1', 'img/%04d.jpg', '1:742', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/BlurCar1.zip', {'MB', 'FM'}, 'groundtruth_rect.txt');
-SaveSequenceConfig('BlurCar3', 'img/%04d.jpg', '1:357', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/BlurCar3.zip', {'MB', 'FM'}, 'groundtruth_rect.txt');
-SaveSequenceConfig('BlurCar4', 'img/%04d.jpg', '1:380', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/BlurCar4.zip', {'MB', 'FM'}, 'groundtruth_rect.txt');
+SaveSequenceConfig('BlurCar1', 'img/%04d.jpg', '247:988', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/BlurCar1.zip', {'MB', 'FM'}, 'groundtruth_rect.txt');
+SaveSequenceConfig('BlurCar3', 'img/%04d.jpg', '3:359', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/BlurCar3.zip', {'MB', 'FM'}, 'groundtruth_rect.txt');
+SaveSequenceConfig('BlurCar4', 'img/%04d.jpg', '18:397', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/BlurCar4.zip', {'MB', 'FM'}, 'groundtruth_rect.txt');
 SaveSequenceConfig('Bolt2', 'img/%04d.jpg', '1:293', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Bolt2.zip', {'DEF', 'BC'}, 'groundtruth_rect.txt');
 SaveSequenceConfig('Car2', 'img/%04d.jpg', '1:913', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Car2.zip', {'IV', 'BC'}, 'groundtruth_rect.txt');
 SaveSequenceConfig('Car24', 'img/%04d.jpg', '1:3059', 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Car24.zip', {'IV', 'SV', 'BC'}, 'groundtruth_rect.txt');
