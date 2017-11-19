@@ -207,9 +207,11 @@ elseif strcmpi(test_type, 'TRE')
   test_cfgs = repmat(test, [1, 10]);
   num_frames = numel(img_idx);
   for i = 1:10
-    test_cfgs(i).img_start = img_idx(round((i - 1) / 10 * num_frames) + 1);
+    start = round((i - 1) / 10 * num_frames) + 1;
+    test_cfgs(i).img_start = img_idx(start);
     test_cfgs(i).img_range_str = ...
       sprintf('%d:%d', test_cfgs(i).img_start, test_cfgs(i).img_end);
+    test_cfgs(i).init_rect = seq.gt_rect(gt_rect_idx(start), :);
   end
 else
   test_cfgs = test;
